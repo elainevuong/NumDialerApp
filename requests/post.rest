@@ -1,0 +1,7 @@
+POST http://localhost:4830/call
+content-type: application/json
+
+{
+  "phone": "15512459377",
+  "webhookURL": "http://localhost:8000/webhooks/phone/15512459377"
+}
